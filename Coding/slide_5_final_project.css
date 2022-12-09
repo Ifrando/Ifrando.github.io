@@ -1,0 +1,45 @@
+.line {
+    width: 2px;
+    height: 750px;
+    background-color: black;
+}
+.card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    background-color: rgb(80, 80, 80);
+}
+.navbar .nav-link {
+    font-size: 25px;
+}
+.carousel-control-prev-icon {
+    width: 40px;
+    height: 15px;
+}
+
+.navbar {
+    background-color: rgb(80, 80, 80);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.table {
+    width: 800px;
+}
+@media only screen and (max-width: 1087px) and (min-width: 766px) {
+    .line {
+        width: 2px;
+        height: 766px;
+    }
+    .table {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .line {
+        width: 1000px;
+        height: 2px;
+    }
+    .table {
+        width: 300px;
+    }
+}

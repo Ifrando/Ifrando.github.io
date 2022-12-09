@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.form-text{
+    color: #b4b4b4;
+}
+h1{
+    text-align: center;
+    color: transparent;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin-bottom: -20px;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
